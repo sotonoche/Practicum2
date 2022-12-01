@@ -85,6 +85,11 @@
             // 
             this.numericUpDownY.DecimalPlaces = 2;
             this.numericUpDownY.Location = new System.Drawing.Point(77, 66);
+            this.numericUpDownY.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
             this.numericUpDownY.Name = "numericUpDownY";
             this.numericUpDownY.Size = new System.Drawing.Size(120, 20);
             this.numericUpDownY.TabIndex = 4;
